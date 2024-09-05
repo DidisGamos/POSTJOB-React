@@ -1,20 +1,26 @@
 import LogoPostJob from "../assets/icon/Logo.svg"
 const Nav=()=>{
     return(
-        <section className="flex justify-between p-20">
-            <div className="flex gap-10">
+        <section className="flex justify-between p-14">
+            <div className="ml-24 flex space-x-12">
                 <div className="flex">
-                    <img src={LogoPostJob} alt=""/><label className="text-white">PostJob</label>
+                    <img className="w-7 h-7" src={LogoPostJob} alt=""/><label className="text-white">PostJob</label>
                 </div>
-                <div className="text-[rgba(97,98,97,255)]">
-                    <a href="#" className="m-5">AI Cover Letter Generator</a>
-                    <a href="#" className="m-5">Resume Template</a>
-                    <a href="#" className="m-5">Pricing</a>
+                <div className="space-x-5 text-[rgba(97,98,97,255)] sm:invisible 2xl:visible
+                xl:visible lg:invisible md:invisible">
+                    <a href="#">AI Cover Letter Generator</a>
+                    <a href="#">Resume Template</a>
+                    <a href="#">Pricing</a>
                 </div>
             </div>
-            <div className="flex gap-5">
-                <a href="#">Sign In</a>
-                <a href="#">Get Started</a>
+            <div className="mr-24 flex gap-3">
+                <button className="h-10 w-28 bg-none border-2 border-[rgba(107,227,83)] rounded-xl text-white
+                hover:bg-[rgba(107,227,83)] hover:text-black">
+                    Sign In
+                </button>
+                <button className="h-10 w-36 bg-[rgba(107,227,83)] text-black rounded-xl">
+                    Get started
+                </button>
             </div>
         </section>
     )
