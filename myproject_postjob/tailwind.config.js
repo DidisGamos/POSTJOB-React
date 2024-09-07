@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'sppro':['SP Pro','sans-serif'],
+        'sp_pro':['SP_Pro','sans-serif'],
       }
     },
   },

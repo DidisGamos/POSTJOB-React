@@ -15,10 +15,10 @@ const Nav=()=>{
             </div>
             <div className="mr-24 flex gap-3">
                 <button className="h-10 w-28 bg-none border-2 border-[rgba(107,227,83)] rounded-xl text-white
-                hover:bg-[rgba(107,227,83)] hover:text-black font-semibold">
+                hover:bg-[rgba(107,227,83)] hover:text-black">
                     Sign In
                 </button>
-                <button className="h-10 w-36 bg-[rgba(107,227,83)] text-black rounded-xl font-semibold">
+                <button className="h-10 w-36 bg-[rgba(107,227,83)] text-black rounded-xl">
                     Get started
                 </button>
             </div>
