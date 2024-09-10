@@ -5,9 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    screens: {
+      ssm: '375px',
+      sm: '650px',
+      md: '768px',
+      lg: '1024px',
+      xlg:'1200px',
+    },
     extend: {
       fontFamily:{
-        'sp_pro':['SP_Pro','sans-serif'],
+        'sp_pro':['SP_Pro_Bold','sans-serif'],
       }
     },
   },
