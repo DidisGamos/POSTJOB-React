@@ -1,7 +1,7 @@
 import LogoPostJob from "../assets/icon/Logo.svg"
 const Nav=()=>{
     return(
-        <section className="flex justify-between p-14">
+        <section className="flex justify-between p-12">
             <div className="ml-24 flex space-x-12">
                 <div className="flex">
                     <img className="w-7 h-7" src={LogoPostJob} alt=""/><label className="text-white">PostJob</label>

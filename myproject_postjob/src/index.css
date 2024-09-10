@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'SP_Pro';
+    font-family: 'SP_Pro_Bold';
     src: url('./fonts/SFPRODISPLAYBOLD.OTF') format('otf');
 }

@@ -9,11 +9,11 @@ const BodyPostJob=()=>{
                 generator, resume keyword checker, outreach message <br />
                 writer, and more. Powered by GPT
             </div>
-            <div className="w-4/12 h-16 flex justify-between rounded-2xl border-2 border-[rgba(97,98,97,255)]
+            <div className="w-4/12 h-14 flex justify-between rounded-2xl border-2 border-[rgba(97,98,97,255)]
             mt-5">
                 <input type="email" name="" id="" placeholder="Your Email" className="bg-transparent 
                 text-[rgba(97,98,97,255)] ml-10 outline-none"/>
-                <button className="m-2pa w-44 text-center items-center bg-[rgba(107,227,83)] mr-2 rounded-xl text-[rgb(22,24,21,255)]">Started For Free</button>
+                <button className="m-2 w-4/12 text-center items-center bg-[rgba(107,227,83)] mr-2 rounded-xl text-[rgb(22,24,21,255)]">Started For Free</button>
             </div>
         </div>
     )
