@@ -20,29 +20,29 @@ const BodyPostJob=()=>{
                 rounded-xl text-[rgb(22,24,21,255)]">Started For Free</button>
             </div>
             <div>
-                <div className="flex flex-row text-start gap-10 mt-10">
-                    <div className="w-80 p-5 rounded-xl h-auto bg-[rgba(30,32,29)]">
+                <div className="grid text-start gap-10 mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xlg:grid-cols-3">
+                    <div className="w-82 p-5 rounded-xl h-auto bg-[rgba(30,32,29)]">
                         <img className="" src={IconFile}/>
-                        <a>AI Cover Letter Generator</a>
-                        <div>
-                            The AI Cover Letter Generator is a tool that uses artificial intelligence algorithm s to create
+                        <p className="text-white font-semibold mt-3">AI Cover Letter Generator</p>
+                        <div className="text-[rgba(97,98,97,255)] mt-3 w-80">
+                            The AI Cover Letter Generator is a tool that uses artificial intelligence <br /> algorithm s to create
                             personalized cover letters for job applicants.
                         </div>
                     </div>
-                    <div className="w-80 p-5 rounded-xl h-auto bg-[rgba(30,32,29)]">
+                    <div className="w-82 p-5 rounded-xl h-auto bg-[rgba(30,32,29)]">
                         <img className="" src={IconPointAccess}/>
-                        <a>AI Cover Letter Generator</a>
-                        <div>
-                            The AI Cover Letter Generator is a tool that uses artificial intelligence algorithm s to create
-                            personalized cover letters for job applicants.
+                        <p className="text-white font-semibold mt-3">Smart Personalization</p>
+                        <div className="text-[rgba(97,98,97,255)] mt-3 w-80">
+                            Smart Personalization refers to the use <br /> of data and technology to deliver <br /> tailored experiences and content
+                            to individual customers or users.
                         </div>
                     </div>
-                    <div className="w-80 p-5 rounded-xl h-auto bg-[rgba(30,32,29)]">
+                    <div className="w-82 p-5 rounded-xl h-auto bg-[rgba(30,32,29)]">
                         <img className="" src={IconScan}/>
-                        <a>AI Cover Letter Generator</a>
-                        <div>
-                            The AI Cover Letter Generator is a tool that uses artificial intelligence algorithm s to create
-                            personalized cover letters for job applicants.
+                        <p className="text-white font-semibold mt-3">Resume Scanner</p>
+                        <div className="text-[rgba(97,98,97,255)] mt-3 w-80">
+                            A resume scanner is a software <br /> application that uses optical character recognition (ORC) technology to extract <br />
+                            and analyze data from resumes.
                         </div>
                     </div>
                 </div>
