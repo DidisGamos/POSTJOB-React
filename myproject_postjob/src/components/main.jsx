@@ -1,11 +1,13 @@
 import Nav from "./nav.jsx"
 import BodyPostJob from "./secpostjob.jsx"
+import SubmitPostJob from "./subpostjob.jsx"
 
 const Main=()=>{
     return(
         <div className="bg-[rgb(22,24,21,255)] h-auto font-sp_pro w-full">
             <Nav/>
-            <BodyPostJob/>
+            <BodyPostJob />
+            <SubmitPostJob/>
         </div>
     )
 }
