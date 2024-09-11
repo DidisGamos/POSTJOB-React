@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: RFDewi;
-    src: url("./fonts/RFDewi-Black.ttf") format("ttf");
+    font-family: SFProText;
+    src: url("./fonts/SF-Pro-Text-Regular.otf") format("OTF");
 }

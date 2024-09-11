@@ -4,8 +4,8 @@ import IconScan from "../assets/icon/maximize.svg"
 const BodyPostJob=()=>{
     return(
         <div className="flex flex-col items-center ssm:text-center justify-center">
-            <h1 className="text-8xl text-[rgba(107,227,83)] ssm:text-7xl lg:text-8xl">Win your dream job</h1>
-            <h1 className="text-8xl text-white ssm:text-7xl lg:text-8xl">with PostJob</h1>
+            <h1 className="text-[88px] font-semibold text-[rgba(107,227,83)] ssm:text-7xl lg:text-8xl">Win your dream job</h1>
+            <h1 className="text-[88px] font-semibold text-white ssm:text-7xl lg:text-8xl">with PostJob</h1>
             <div className="w-4/12 text-md text-[rgba(97,98,97,255)] mt-5 text-center ssm:w-5/6 sm:w-5/6 md:w-5/6
             lg:w-5/6">
                 Submit better job app - 10x faster. AI cover letter <br />

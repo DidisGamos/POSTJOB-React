@@ -4,7 +4,7 @@ import SubmitPostJob from "./subpostjob.jsx"
 
 const Main=()=>{
     return(
-        <div className="bg-[rgb(22,24,21,255)] h-auto font-RFDewi w-full">
+        <div className="bg-[rgb(22,24,21,255)] h-auto font-SFProText w-full">
             <Nav/>
             <BodyPostJob />
             <SubmitPostJob/>
