@@ -15,7 +15,7 @@ export default {
     },
     extend: {
       fontFamily:{
-        'sp_pro':['SP_Pro_Bold','sans-serif'],
+        'RFDewi':['RFDewi','sans-serif'],
       }
     },
   },

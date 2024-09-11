@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: RFDewi;
+    src: url("./fonts/RFDewi-Black.ttf") format("ttf");
+}
